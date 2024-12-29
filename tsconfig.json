@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",  // Set the base URL to `src`
+    "paths": {
+      "@/*": ["./*"]  // Alias `@` to the `src` folder
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
